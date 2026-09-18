@@ -25,3 +25,16 @@ It contains Python scripts to reproduce the figures and analyses presented in th
 
     python3 run_Fig2_Spherical_mean_signal_vs_Radius_Monte_Carlo_Signal_vs_Spectral_Approach_G500_D0.8_6bvalues.py
     
+## Getting Started - dependencies 🔧
+Before running the scripts, ensure the following requirements are met:
+```
+-Python 3.8+
+-numpy
+-matplotlib
+-scipy
+
+## Installation 🎁
+Clone the repository and navigate to its directory:
+
+    git clone https://github.com/ejcanalesr/exact-PGSE-dMRI-signal-cylindrical-surface.git
+    cd exact-PGSE-dMRI-signal-cylindrical-surface
