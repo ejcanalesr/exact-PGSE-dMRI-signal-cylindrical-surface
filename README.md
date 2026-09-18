@@ -32,9 +32,18 @@ Before running the scripts, ensure the following requirements are met:
 -numpy
 -matplotlib
 -scipy
+```
 
 ## Installation 🎁
 Clone the repository and navigate to its directory:
 
     git clone https://github.com/ejcanalesr/exact-PGSE-dMRI-signal-cylindrical-surface.git
     cd exact-PGSE-dMRI-signal-cylindrical-surface
+
+## License 📄
+This project is licensed under the CC BY public copyright license.
+
+## Contact 📧
+For questions or suggestions, please contact: Erick J. Canales-Rodríguez
+
+    Emails: ejcanalesr@ugr.es
