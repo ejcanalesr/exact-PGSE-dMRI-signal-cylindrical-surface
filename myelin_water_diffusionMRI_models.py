@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Erick Jorge Canales-Rodriguez, 2024-2026
+# Erick Jorge Canales-Rodriguez, 2026
 
 
 from __future__ import division
