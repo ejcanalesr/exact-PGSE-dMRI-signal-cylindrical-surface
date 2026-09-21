@@ -3,35 +3,50 @@
 <img src="Graphical_abstract.png" width="1024">
 
 ---
+This repository contains the models, synthetic data, and scripts described in our 2026 manuscript:
 
-This repository contains the models, synthetic data, and scripts described in our manuscript (under revision, 2026):  
-**"Exact analytical PGSE signal for diffusion confined to a cylindrical surface using a spectral Laplacian formalism"**  
-*Erick J. Canales-Rodríguez, Chantal M.W. Tax, Juan Manuel Górriz, Derek K. Jones, Jean-Philippe Thiran, Jonathan Rafael-Patiño*
+**"Exact analytical PGSE signal for diffusion confined to a cylindrical surface using a spectral Laplacian formalism"**
+
+*Erick J. Canales-Rodríguez, Chantal M. W. Tax, Juan Manuel Górriz, Derek K. Jones, Jean-Philippe Thiran, Jonathan Rafael-Patiño*
 
 ## Summary
 
-The proposed framework provides an exact analytical expression for the diffusion MRI signal arising from diffusion confined to a cylindrical surface under finite rectangular pulsed-gradient spin-echo (PGSE) gradients. Moreover, it develops computationally efficient strategies for repeated model evaluations. 
-We solved the Bloch–Torrey equation using a spectral matrix formalism of the Laplace operator in the eigenbasis of the cylindrical surface. The resulting dMRI signal is expressed as a product of non-commuting matrix exponentials and is valid for arbitrary rectangular gradient durations and separations, without approximations to the diffusion propagator or spin phase distribution. We reduced a real spectral basis to reduce the dimensionality of the problem. We developed accelerated implementations based on Strang splitting and Gauss–Legendre quadrature for repeated signal evaluations and computation of the spherical mean. The analytical signal was validated against Monte Carlo diffusion simulations.
+This repository implements an exact analytical model for the diffusion MRI signal arising from diffusion confined to a cylindrical surface under finite rectangular pulsed-gradient spin-echo (PGSE) gradients.
+
+The Bloch–Torrey equation is solved using a spectral matrix formalism based on the eigenfunctions of the Laplace operator on the cylindrical surface. The resulting dMRI signal is expressed as a product of non-commuting matrix exponentials and is valid for arbitrary rectangular gradient durations and separations, without approximations to the diffusion propagator or spin phase distribution.
+
+The repository also includes computationally efficient strategies for repeated signal evaluations, including:
+
+- a reduced real spectral basis,
+- Strang splitting,
+- Gauss–Legendre quadrature for computing the spherical mean.
+
+The analytical signal is validated against Monte Carlo diffusion simulations.
 
 ## Repository Structure 📖
 
-- **`Data/`**  
-  Includes synthetic datasets used for validation. To access the datasets, unzip the provided `Data.zip` file:  
-  ```bash
-  unzip Data.zip -d Data/
+### `Data/`
+
+Contains the synthetic datasets used for validation.
+
+To extract the datasets, unzip the provided `Data.zip` file:
+
+```bash
+unzip Data.zip -d Data/
   
 ## Main Directory and Usage 🚀
-It contains Python scripts to reproduce the figures and analyses presented in the manuscript. For example:
+The main directory contains Python scripts used to reproduce figures, numerical analyses, and validation experiments reported in the manuscript.
+For example:
 
     python3 run_Fig2_Spherical_mean_signal_vs_Radius_Monte_Carlo_Signal_vs_Spectral_Approach_G500_D0.8_6bvalues.py
     
 ## Getting Started - dependencies 🔧
-Before running the scripts, ensure the following requirements are met:
+The scripts require:
 ```
 -Python 3.8+
--numpy
--matplotlib
--scipy
+-NumPy
+-Matplotlib
+-SciPy
 ```
 
 ## Installation 🎁
@@ -41,9 +56,9 @@ Clone the repository and navigate to its directory:
     cd exact-PGSE-dMRI-signal-cylindrical-surface
 
 ## License 📄
-This project is licensed under the CC BY public copyright license.
+This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) public copyright license.
 
 ## Contact 📧
-For questions or suggestions, please contact: Erick J. Canales-Rodríguez
+For questions or suggestions, contact Erick J. Canales-Rodríguez
 
     Emails: ejcanalesr@ugr.es
