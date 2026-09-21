@@ -1,11 +1,11 @@
-# Exact analytical diffusion MRI signal for diffusion confined to a cylindrical surface using a spectral Laplacian formalism
+# Exact analytical diffusion MRI signal for diffusion confined to a cylindrical surface
 
 <img src="Graphical_abstract.png" width="1024">
 
 ---
 This repository contains the models, synthetic data, and scripts described in our 2026 manuscript:
 
-**"Exact analytical PGSE signal for diffusion confined to a cylindrical surface"**
+**"Exact analytical diffusion MRI signal for diffusion confined to a cylindrical surface using a spectral Laplacian formalism"**
 
 *Erick J. Canales-Rodríguez, Chantal M. W. Tax, Juan Manuel Górriz, Derek K. Jones, Jean-Philippe Thiran, Jonathan Rafael-Patiño*
 
