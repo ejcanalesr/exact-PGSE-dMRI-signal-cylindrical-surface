@@ -5,7 +5,7 @@
 ---
 This repository contains the models, synthetic data, and scripts described in our 2026 manuscript:
 
-**"Exact analytical PGSE signal for diffusion confined to a cylindrical surface using a spectral Laplacian formalism"**
+**"Exact analytical PGSE signal for diffusion confined to a cylindrical surface"**
 
 *Erick J. Canales-Rodríguez, Chantal M. W. Tax, Juan Manuel Górriz, Derek K. Jones, Jean-Philippe Thiran, Jonathan Rafael-Patiño*
 
