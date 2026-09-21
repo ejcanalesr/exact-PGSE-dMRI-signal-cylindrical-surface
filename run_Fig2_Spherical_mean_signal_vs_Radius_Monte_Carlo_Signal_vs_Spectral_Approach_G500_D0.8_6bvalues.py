@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Erick Jorge Canales-Rodriguez, 2024
+# Erick Jorge Canales-Rodriguez, 2026
 
 import numpy as np
 from myelin_water_diffusionMRI_models import signal_radial_pgse_spectral_approach, build_K_reduced_from_full, SMT_signal_Gaussian_WidePulse
